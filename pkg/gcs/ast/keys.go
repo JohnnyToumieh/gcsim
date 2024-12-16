@@ -52,8 +52,8 @@ var key = map[string]TokenType{
 }
 
 var statKeys = map[string]attributes.Stat{
-	"def%":     attributes.DEFP,
 	"def":      attributes.DEF,
+	"def%":     attributes.DEFP,
 	"hp":       attributes.HP,
 	"hp%":      attributes.HPP,
 	"atk":      attributes.ATK,
