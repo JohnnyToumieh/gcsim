@@ -56,7 +56,7 @@ This is especially relevant when adding stats via Enka Import or the Character B
 
 Example:
 ```
-albedo add stats def%=0.831 def=39.36 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.642 cd=0.7944 geo%=0.466;
+albedo add stats def=39.36 def%=0.831 hp=5287.88 hp%=0.0992 atk=344.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.642 cd=0.7944 geo%=0.466;
 ```
 
 This needs to be converted into a main stat and substat line like this that specifies the stats for flower, feather, sands, goblet and circlet:
@@ -130,10 +130,10 @@ You should see something like this output in Powershell:
 2024-01-12T22:37:24.411+0100    INFO    nahida
 2024-01-12T22:37:24.411+0100    INFO    Final Liquid Substat Counts: em: 2 cr: 8 cd: 10
 2024-01-12T22:37:24.411+0100    INFO    Final config substat strings:
-yelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1488 atk=33.08 atk%=0.0992 er=0.1653 em=39.64 cr=0.3972 cd=0.662;
-xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
-raiden add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6061 em=118.92 cr=0.2979 cd=0.1324;
-nahida add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
+yelan add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1488 atk=33.08 atk%=0.0992 er=0.1653 em=39.64 cr=0.3972 cd=0.662;
+xingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+raiden add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.6061 em=118.92 cr=0.2979 cd=0.1324;
+nahida add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
 2024-01-12T22:37:24.412+0100    INFO    Saved to the following location: opt.txt
 Average duration of 91.58 seconds (min: 91.37 max: 100.37 std: 0.73)
 Average 6788382.24 damage over 91.58 seconds, resulting in 74133 dps (min: 63141.41 max: 75805.02 std: 1241.52) 
@@ -259,10 +259,10 @@ The substat optimizer will print additional information as it is running. You sh
 2024-02-01T09:43:09.470-0700    INFO    nahida
 2024-02-01T09:43:09.470-0700    INFO    Final Liquid Substat Counts: em: 5 cr: 5 cd: 10
 2024-02-01T09:43:09.470-0700    INFO    Final config substat strings:
-alhaitham add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
-bennett add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=218.02 cr=0.1324 cd=0.4634;
-fischl add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;
-nahida add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=138.74 cr=0.2317 cd=0.7944;
+alhaitham add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=79.28 cr=0.331 cd=0.7944;
+bennett add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.2976 er=0.1102 em=218.02 cr=0.1324 cd=0.4634;
+fischl add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.3306 em=39.64 cr=0.2648 cd=0.7944;
+nahida add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=138.74 cr=0.2317 cd=0.7944;
 2024-02-01T09:43:09.471-0700    INFO    Saved to the following location: .\test.txt
 Average duration of 101.21 seconds (min: 100.85 max: 114.57 std: 0.53)
 Average 7215548.82 damage over 101.21 seconds, resulting in 71292 dps (min: 59069.69 max: 76743.87 std: 1845.95)
