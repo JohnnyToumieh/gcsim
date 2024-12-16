@@ -2,8 +2,8 @@ import { Character } from "@gcsim/types";
 
 const statKeys = [
   "n/a",
-  "def%",
   "def",
+  "def%",
   "hp",
   "hp%",
   "atk",
