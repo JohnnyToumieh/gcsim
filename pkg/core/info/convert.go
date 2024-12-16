@@ -9,10 +9,10 @@ func ConvertProtoStat(s model.StatType) attributes.Stat {
 	switch s {
 	case model.StatType_INVALID_STAT_TYPE:
 		return attributes.NoStat
-	case model.StatType_FIGHT_PROP_DEFENSE_PERCENT:
-		return attributes.DEFP
 	case model.StatType_FIGHT_PROP_DEFENSE:
 		return attributes.DEF
+	case model.StatType_FIGHT_PROP_DEFENSE_PERCENT:
+		return attributes.DEFP
 	case model.StatType_FIGHT_PROP_HP:
 		return attributes.HP
 	case model.StatType_FIGHT_PROP_HP_PERCENT:
