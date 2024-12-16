@@ -45,7 +45,7 @@ target lvl=100 resist=0.1 particle_threshold=250000 particle_drop_count=1;
 raiden char lvl=90/90 cons=0 talent=1,9,9;
 raiden add weapon="thecatch" refine=1 lvl=90/90;
 raiden add set="emblemofseveredfate" count=4;
-raiden add stats def%=0.197 def=42 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
+raiden add stats def=42 def%=0.197 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
 
 xingqiu char lvl=90/90 cons=6 talent=1,9,9;
 xingqiu add weapon="sacrificialsword" refine=5 lvl=90/90;
@@ -55,12 +55,12 @@ xingqiu add stats def=86 hp=4780 hp%=0.105 atk=422 atk%=0.659 er=0.065 cr=0.563 
 xiangling char lvl=90/90 cons=6 talent=1,8,9;
 xiangling add weapon="favoniuslance" refine=5 lvl=90/90;
 xiangling add set="emblemofseveredfate" count=4;
-xiangling add stats def%=0.131 def=42 hp=4780 hp%=0.058 atk=381 atk%=0.099 er=0.816 em=147 cr=0.424 cd=1.033 pyro%=0.466;
+xiangling add stats def=42 def%=0.131 hp=4780 hp%=0.058 atk=381 atk%=0.099 er=0.816 em=147 cr=0.424 cd=1.033 pyro%=0.466;
 
 bennett char lvl=80/90 cons=6 talent=1,8,9;
 bennett add weapon="thealleyflash" refine=5 lvl=90/90;
 bennett add set="noblesseoblige" count=4;
-bennett add stats def%=0.19 def=79 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
+bennett add stats def=79 def%=0.19 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
 ```
 
 ## The "Rotation"
@@ -114,7 +114,7 @@ target lvl=100 resist=0.1 particle_threshold=250000 particle_drop_count=1;
 raiden char lvl=90/90 cons=0 talent=1,9,9;
 raiden add weapon="thecatch" refine=1 lvl=90/90;
 raiden add set="emblemofseveredfate" count=4;
-raiden add stats def%=0.197 def=42 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
+raiden add stats def=42 def%=0.197 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
 
 xingqiu char lvl=90/90 cons=6 talent=1,9,9;
 xingqiu add weapon="sacrificialsword" refine=5 lvl=90/90;
@@ -124,12 +124,12 @@ xingqiu add stats def=86 hp=4780 hp%=0.105 atk=422 atk%=0.659 er=0.065 cr=0.563 
 xiangling char lvl=90/90 cons=6 talent=1,8,9;
 xiangling add weapon="favoniuslance" refine=5 lvl=90/90;
 xiangling add set="emblemofseveredfate" count=4;
-xiangling add stats def%=0.131 def=42 hp=4780 hp%=0.058 atk=381 atk%=0.099 er=0.816 em=147 cr=0.424 cd=1.033 pyro%=0.466;
+xiangling add stats def=42 def%=0.131 hp=4780 hp%=0.058 atk=381 atk%=0.099 er=0.816 em=147 cr=0.424 cd=1.033 pyro%=0.466;
 
 bennett char lvl=80/90 cons=6 talent=1,8,9;
 bennett add weapon="thealleyflash" refine=5 lvl=90/90;
 bennett add set="noblesseoblige" count=4;
-bennett add stats def%=0.19 def=79 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
+bennett add stats def=79 def%=0.19 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
 
 active raiden;
 
@@ -222,7 +222,7 @@ target lvl=100 resist=0.1 particle_threshold=250000 particle_drop_count=1;
 raiden char lvl=90/90 cons=0 talent=1,9,9;
 raiden add weapon="thecatch" refine=1 lvl=90/90;
 raiden add set="emblemofseveredfate" count=4;
-raiden add stats def%=0.197 def=42 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
+raiden add stats def=42 def%=0.197 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
 
 xingqiu char lvl=90/90 cons=6 talent=1,9,9;
 xingqiu add weapon="sacrificialsword" refine=5 lvl=90/90;
@@ -232,12 +232,12 @@ xingqiu add stats def=86 hp=4780 hp%=0.105 atk=422 atk%=0.659 er=0.065 cr=0.563 
 xiangling char lvl=90/90 cons=6 talent=1,8,9;
 xiangling add weapon="favoniuslance" refine=5 lvl=90/90;
 xiangling add set="emblemofseveredfate" count=4;
-xiangling add stats def%=0.131 def=42 hp=4780 hp%=0.058 atk=381 atk%=0.099 er=0.816 em=147 cr=0.424 cd=1.033 pyro%=0.466;
+xiangling add stats def=42 def%=0.131 hp=4780 hp%=0.058 atk=381 atk%=0.099 er=0.816 em=147 cr=0.424 cd=1.033 pyro%=0.466;
 
 bennett char lvl=80/90 cons=6 talent=1,8,9;
 bennett add weapon="thealleyflash" refine=5 lvl=90/90;
 bennett add set="noblesseoblige" count=4;
-bennett add stats def%=0.19 def=79 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
+bennett add stats def=79 def%=0.19 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
 
 active raiden;
 
@@ -277,7 +277,7 @@ In particular, we're going change Xiangling's ER from artifacts down to just 20%
 Before:
 ```
 xiangling add stats
-    def%=0.131 def=42 hp=4780 hp%=0.058 atk=381 atk%=0.099
+    def=42 def%=0.131 hp=4780 hp%=0.058 atk=381 atk%=0.099
     er=0.816
     em=147 cr=0.424 cd=1.033 pyro%=0.466;
 ```
@@ -285,7 +285,7 @@ xiangling add stats
 After:
 ```
 xiangling add stats 
-    def%=0.131 def=42 hp=4780 hp%=0.058 atk=381 atk%=0.099 
+    def=42 def%=0.131 hp=4780 hp%=0.058 atk=381 atk%=0.099 
     er=0.2
     em=147 cr=0.424 cd=1.033 pyro%=0.466;
 ```
@@ -305,7 +305,7 @@ target lvl=100 resist=0.1 particle_threshold=250000 particle_drop_count=1;
 raiden char lvl=90/90 cons=0 talent=1,9,9;
 raiden add weapon="thecatch" refine=1 lvl=90/90;
 raiden add set="emblemofseveredfate" count=4;
-raiden add stats def%=0.197 def=42 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
+raiden add stats def=42 def%=0.197 hp=4780 atk=358 atk%=0.618 er=0.894 cr=0.602 cd=0.948;
 
 xingqiu char lvl=90/90 cons=6 talent=1,9,9;
 xingqiu add weapon="sacrificialsword" refine=5 lvl=90/90;
@@ -316,14 +316,14 @@ xiangling char lvl=90/90 cons=6 talent=1,8,9;
 xiangling add weapon="favoniuslance" refine=5 lvl=90/90;
 xiangling add set="emblemofseveredfate" count=4;
 xiangling add stats 
-    def%=0.131 def=42 hp=4780 hp%=0.058 atk=381 atk%=0.099 
+    def=42 def%=0.131 hp=4780 hp%=0.058 atk=381 atk%=0.099 
     er=0.2
     em=147 cr=0.424 cd=1.033 pyro%=0.466;
 
 bennett char lvl=80/90 cons=6 talent=1,8,9;
 bennett add weapon="thealleyflash" refine=5 lvl=90/90;
 bennett add set="noblesseoblige" count=4;
-bennett add stats def%=0.19 def=79 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
+bennett add stats def=79 def%=0.19 hp=5348 hp%=0.14 atk=325 atk%=0.053 er=1.114 em=163 cr=0.443 cd=0.264 pyro%=0.466;
 
 active raiden;
 
