@@ -75,8 +75,8 @@ export function ascLvlMax(asc: number): number {
 }
 
 export const StatToIndexMap: { [key in string]: number } = {
-  DEFP: 1,
-  DEF: 2,
+  DEF: 1,
+  DEFP: 2,
   HP: 3,
   HPP: 4,
   ATK: 5,
@@ -97,8 +97,8 @@ export const StatToIndexMap: { [key in string]: number } = {
 };
 
 export const GOODStatToIndexMap: { [key in string]: number } = {
-  def_: 1,
-  def: 2,
+  def: 1,
+  def_: 2,
   hp: 3,
   hp_: 4,
   atk: 5,
