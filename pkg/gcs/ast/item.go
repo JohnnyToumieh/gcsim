@@ -112,7 +112,7 @@ const (
 
 	// Keywords specific to gcsim appears after this
 	itemKeys
-	itemStatKey      // stats: def%, def, etc..
+	itemStatKey      // stats: def, def%, etc..
 	itemElementKey   // elements: pyro, hydro, etc..
 	itemCharacterKey // characters: albedo, amber, etc..
 	itemActionKey    // actions: skill, burst, attack, charge, etc...
