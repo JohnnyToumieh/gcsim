@@ -21,25 +21,25 @@ yelan add weapon="favoniuswarbow" refine=3 lvl=90/90;
 yelan add set="emblemofseveredfate" count=4;
 # yelan add set="noblesseoblige" count=4;
 yelan add stats hp=4780 atk=311 hp%=0.466 hydro%=0.466 cr=0.311; #main
-yelan add stats def%=0.124 def=39.36 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+yelan add stats def=39.36 def%=0.124 hp=507.88 hp%=0.1984 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
 xingqiu char lvl=90/90 cons=6 talent=9,9,9; 
 xingqiu add weapon="harbingerofdawn" refine=5 lvl=90/90;
 xingqiu add set="emblemofseveredfate" count=4;
 xingqiu add stats hp=4780 atk=311 atk%=0.466 hydro%=0.466 cr=0.311; #main
-xingqiu add stats def%=0.124 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+xingqiu add stats def=39.36 def%=0.124 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.1984 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
 albedo char lvl=90/90 cons=0 talent=9,9,9;
 albedo add weapon="cinnabarspindle" lvl=90/90 refine=5;
 albedo add set="huskofopulentdreams" count=4 +params=[stacks=4];
 albedo add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311;
-albedo add stats def=39.36 def%=0.248 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;
+albedo add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944 ;
 
 noelle char lvl=90/90 cons=6 talent=9,9,9;
 noelle add weapon="favoniusgreatsword" refine=3 lvl=90/90;
 noelle add set="archaicpetra" count=4;
 noelle add stats hp=4780 atk=311 def%=0.583 geo%=0.466 cr=0.311; #main 5* set
-noelle add stats def%=0.248 def=39.36 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
+noelle add stats def=39.36 def%=0.248 hp=507.88 hp%=0.0992 atk=33.08 atk%=0.0992 er=0.1102 em=39.64 cr=0.331 cd=0.7944;
 
 active albedo;
 while 1 {
